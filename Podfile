@@ -4,6 +4,8 @@
 # use_frameworks!
 
 target 'swift-ios' do
-
+  use_frameworks!
+  # pod 'RealmSwift' # database
+  # pod 'SwiftyJSON' # swift json parser
 end
 
